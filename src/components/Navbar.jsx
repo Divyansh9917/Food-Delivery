@@ -47,32 +47,21 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex shrink-0 items-center text-3xl font-extrabold text-green-900 border-2 rounded-b-lg bg-amber-200">
-              <h2>
-                Foodii
+            <div className="flex shrink-0 items-center text-3xl font-extrabold text-white border-2 rounded-b-lg bg-gray-500">
+              <h2 className="p-2 cursor-pointer">
+                Grabit
               </h2>
             </div>
-            <div className="hidden sm:ml-6 sm:block">
+            <div className="p-2 hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <Link
                   to="#"
                   aria-current="page"
                   className="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white"
                 >
-                  Dashboard
+                  Home
                 </Link>
-                <Link
-                  to="#"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
-                >
-                  Team
-                </Link>
-                <Link
-                  to="#"
-                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
-                >
-                  Projects
-                </Link>
+                
                 <Link
                   to="/login"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
